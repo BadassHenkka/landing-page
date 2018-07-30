@@ -1,0 +1,25 @@
+body, html {
+	height: 100%;
+}
+
+.bg {
+	background-image: url(coldbeerglass.jpeg);
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1 {
+	opacity: 0.6;
+	font-family: 'Amatic SC', cursive;
+	font-size: 275%;
+}
+
+.btn {
+	transition: all 1s;
+}
+
+.btn:hover {
+	transform: scale(1.5);
+}
